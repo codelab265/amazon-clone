@@ -13,10 +13,10 @@ export default function Layout({ title, children }) {
       </Head>
       <div className="flex justify-between flex-col min-h-screen">
         <header>
-            <nav className="flex justify-between h-12 items-center px-4 shadow-md">
+            <nav className="flex justify-between h-14 items-center px-4 shadow-md">
                 <Link href="/">
-                    <span className="text-lg font-bold">
-                        Amazona
+                    <span className="text-3xl font-bold">
+                        Ama<span className="text-amber-400">zona</span>
                     </span>
                 </Link>
                 <div>
