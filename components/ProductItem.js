@@ -17,8 +17,9 @@ export default function ProductItem({ product }) {
           <h2 className="text-lg">{product.name}</h2>
         </Link>
         <p className="mb-2">{product.brand}</p>
-        <p>MWK {product.price}</p>
+        <p>MWK {parseFloat(product.price).toFixed(2)}</p>
         <button className="primary-button" type="button">
+            <i className="fa fa-plus-circle mr-1"></i>
           Add to cart
         </button>
       </div>
