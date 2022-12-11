@@ -19,7 +19,7 @@ export default function Layout({ title, children }) {
                     </span>
                 </Link>
                 <div>
-                    <Link href="/cart">
+                    <Link legacyBehavior href="/cart">
                     <span className="p-2">Cart</span>
                     </Link>
                     <Link href="/login">
